@@ -3,7 +3,17 @@
   "name": "X Redirect",
   "description": "Redirects X (Formerlly Twitter) to Nitter or other website you want",
   "homepage_url": "https://github.com/agostaxyz/xredirect",
-  "version": "1.1",
+  "version": "1.1.1",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "xredirect@agostaxyz",
+      "strict_min_version": "109.0",
+      "data_collection_permissions": {
+        "required": [],
+        "optional": []
+      }
+    }
+  },
   "icons": {
     "32": "assets/icon-32.png",
     "48": "assets/icon-48.png",
@@ -15,13 +25,10 @@
     "default_title": "X Redirect Settings",
     "default_popup": "popup.html"
   },
-  "background": {
-    "scripts": ["browser-polyfill.js", "background.js"]
-  },
   "content_scripts": [
     {
       "matches": ["*://x.com/*", "*://www.x.com/*", "*://mobile.x.com/*"],
-      "js": ["content-script.js"],
+      "js": ["browser-polyfill.js", "content-script.js"],
       "run_at": "document_start"
     }
   ]
