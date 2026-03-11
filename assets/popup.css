@@ -1,0 +1,40 @@
+:root {
+  --dark: #22262c;
+  --light: #dedede;
+}
+body,
+input {
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+input {
+  background-color: transparent;
+  border: 2px solid var(--light);
+  padding: 3px 6px;
+}
+
+img,
+input {
+  display: block;
+  margin: auto;
+}
+img {
+  display: block;
+  margin: auto;
+  width: 124px;
+}
+input {
+  margin-top: 16px;
+}
+
+@media (prefers-color-scheme: light) {
+  body,
+  input {
+    background-color: var(--light);
+    color: var(--dark);
+  }
+  input {
+    border: 2px solid var(--dark);
+  }
+}
