@@ -8,6 +8,8 @@ module.exports = {
         "*.md",
         ".git",
         ".gitignore",
-        "build"
+        "build",
+        "assets/chrome.png",
+        "assets/firefox.png"
     ]
 };
