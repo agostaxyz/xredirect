@@ -3,7 +3,7 @@
   "name": "X Nitter Redirect",
   "description": "Redirects X (Formerlly Twitter) to Nitter or other website you want",
   "homepage_url": "https://github.com/agostaxyz/xredirect",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "browser_specific_settings": {
     "gecko": {
       "id": "xredirect@agostaxyz",
@@ -21,7 +21,7 @@
     "48": "assets/icon-48.png",
     "128": "assets/icon-128.png"
   },
-  "permissions": ["storage", "activeTab"],
+  "permissions": ["storage"],
   "action": {
     "default_icon": "assets/icon-32.png",
     "default_title": "X Redirect Settings",
