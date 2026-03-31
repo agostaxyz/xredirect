@@ -1,5 +1,4 @@
 # X Nitter Redirect
 
-### Download on [Firefox and Firefox Android](https://addons.mozilla.org/en-US/firefox/addon/x-nitter-redirect/) (PENDING CHROME REVIEW).
-#### New Logo Dropping soon by an actual artist, I know the current one looks shady, sorry.
+### Download for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/x-nitter-redirect/) (PC and Android) and [Chrome](https://chromewebstore.google.com/detail/poidplhkjjdljklegndmiccdbephbcjp).
 ![Firefox Preview](assets/firefox.png)
